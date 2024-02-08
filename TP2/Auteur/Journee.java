@@ -1,19 +1,18 @@
 package Auteur ;
 public enum Journee {
-    MATIN,
-    APRESMIDI,
-    SOIREE;
+    MATIN ("Matin"),
+    APRESMIDI ("Après-midi"),
+    SOIREE ("Soirée");
 
-    public String toString() {
-    if (this == MATIN)
-	    return "Matin";
-	else if (this == APRESMIDI)
-	    return "Après-midi";
-	else {
-	    assert this == SOIREE;
-	    return "Soirée";
-	}
+    private String Label ;
+
+    private Journee( String Label) {
+        this.Label = Label ;
     }
+    public String toString() {
+        return this.Label ;
+	    }
     
     
-}
+    }
+
