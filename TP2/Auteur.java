@@ -54,7 +54,11 @@ public class Auteur {
     }
 
     public int qualiteStyle(Style s) {
-        return this.performances.get(s) ;
+        return this.performances.get(s.toString()) ;
+    }
+
+    public String citationStyle(Style s) {
+        return this.citations.get(s.toString()) ;
     }
 
     @Override
