@@ -96,5 +96,12 @@ class Main {
     assert aristophane.pointFort().equals("Comédie") ;
 
     assert sophocle.qualiteStyle(Style.TRAGEDIE) == 95 ;
+    assert euripide.qualiteStyle(Style.DRAME) == 80 ;
+    assert aristophane.qualiteStyle(Style.COMEDIE) == 100 ;
+
+    assert sophocle.citationStyle(Style.DRAME) == citation_limiers ;
+    assert euripide.citationStyle(Style.TRAGEDIE) == citation_hécube ;
+    assert aristophane.citationStyle(Style.COMEDIE) == citation_guêpes ;
+    assert aristophane.citationStyle(Style.TRAGEDIE) == "" ;
   }
 }
