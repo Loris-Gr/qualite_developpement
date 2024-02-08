@@ -1,12 +1,12 @@
+package Auteur;
 import java.util.List ;
 import java.util.ArrayList ;
-package Auteur;
+
 
 public class Journee {
     private Auteur auteur1 ;
     private Auteur auteur2 ;
     private List<Epreuve> epreuves ;
-    private int nombreSpectateurs ;
 
     public Journee(Auteur auteur1, Auteur auteur2,  int nombreSpectateurs) {
         this.auteur1 = auteur1 ;
