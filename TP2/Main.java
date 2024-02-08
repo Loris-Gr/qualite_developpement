@@ -95,6 +95,6 @@ class Main {
     assert euripide.pointFort().equals("Tragédie") ;
     assert aristophane.pointFort().equals("Comédie") ;
 
-    assert sophocle.qualiteStyle(Style.TRAGÉDIE) == 95 ;
+    assert sophocle.qualiteStyle(Style.TRAGEDIE) == 95 ;
   }
 }
