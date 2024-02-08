@@ -27,6 +27,14 @@ public class Journee {
         return total ;
     } 
 
+    public String gagnant() {
+        int scoreAuteur1 = scoreTotal(this.auteur1) ;
+        int scoreAuteur2 = scoreTotal(this.auteur2) ;
+        if (scoreAuteur1 > scoreAuteur2) {
+            return auteur1.toString() + "/n indice : 0";
+        return  auteur2.toString() + "/n indice : 1";
+        }
+    }
 
     
 }
