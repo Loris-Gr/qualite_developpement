@@ -16,6 +16,10 @@ public class Epreuve {
         return this.nombreSpectateurs * auteur.qualiteStyle(this.style) ;
     }
 
+    public String getCitation(Auteur auteur) {
+        return auteur.citationStyle(this.style) ;
+    }
+
     
 
     
