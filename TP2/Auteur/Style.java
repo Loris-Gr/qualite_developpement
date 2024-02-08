@@ -1,3 +1,4 @@
+package Auteur;
 public enum Style {
     COMEDIE,
     TRAGEDIE,
