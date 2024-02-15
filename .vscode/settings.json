@@ -1,0 +1,6 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "TP3/tdd-backlog-mud/junit-4.13.2.jar"
+    ]
+}
