@@ -1,4 +1,3 @@
-
 public enum MomentJournee {
     MATIN ("Matin"),
     APRESMIDI ("Après-midi"),

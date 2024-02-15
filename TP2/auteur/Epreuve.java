@@ -1,5 +1,3 @@
-
-
 public class Epreuve {
     private MomentJournee momentJournee ;
     private Style style ;
